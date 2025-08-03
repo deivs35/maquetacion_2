@@ -1,0 +1,41 @@
+:root {
+    font-size: 18px;
+
+}
+ .section-1 {
+    background-image: url(./assets/img-4.jpg);
+    min-height: 540px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-1-1{
+    display: flex;
+ justify-content: space-between;
+ margin: 0;
+ padding: 0;
+}
+.section-1-2 {
+    text-align: center;
+}
+
+.section-2 {
+ display: flex;
+}
+
+.section-2-2 {
+    padding: 200px;
+}
+
+.section-2-1 {
+    display: flex;
+    align-items: center;
+    padding: 200px;
+    color: rgb(4, 146, 202);
+    font-size: 3.05rem;
+}
+
+.section-2-2 div {
+    display: flex;
+}
+
+

@@ -2,6 +2,14 @@
     font-size: 18px;
 }
 
+p {
+    font-size: 1rem;
+}
+
+h2{
+    font: size 3.05rem;
+}
+
 .section-1 {
     background-image: url(./assets/img-4.jpg);
     min-height: 540px;
@@ -63,8 +71,7 @@
     text-align: center;
 }
 
-.section-2-2 p,
-.section-2-2 h2 {    
+.section-2-2 p, .section-2-2 h2 {    
     margin: 0px;
     padding: 30px 5px;
 }
@@ -85,4 +92,16 @@
 
 .section-2-2 hr {
     margin: 0px;
+}
+
+.section-3 {
+    background: linear-gradient(rgba(212, 159, 44,0.6),rgba(212, 159, 44,0.6)), url(./assets/img-1.jpg);
+    background-size: cover;
+    min-height: 540px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;     
 }

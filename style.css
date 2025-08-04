@@ -1,25 +1,40 @@
 :root {
     font-size: 18px;
-
 }
- .section-1 {
+
+.section-1 {
     background-image: url(./assets/img-4.jpg);
     min-height: 540px;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
-.section-1-1{
+.section-1-1 {
     display: flex;
- justify-content: space-between;
- margin: 0;
- padding: 0;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.section-1-1-1 p {
+    margin: 18px;
+    color: rgba(243, 208, 12, 0.911);
+}
+.section-1-1 span {
+    color:#fff;
+}
+.section-1-1 img {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right:50px;
+    border-radius: 0px 0px 30px 30px;  
 }
 .section-1-2 {
     text-align: center;
 }
 
 .section-2 {
- display: flex;
+    display: flex;
 }
 
 .section-2-2 {
@@ -36,6 +51,5 @@
 
 .section-2-2 div {
     display: flex;
+    
 }
-
-

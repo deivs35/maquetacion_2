@@ -9,47 +9,80 @@
     background-size: cover;
     position: relative;
 }
+
 .section-1-1 {
     display: flex;
     justify-content: space-between;
     margin: 0;
     padding: 0;
 }
+
 .section-1-1-1 p {
     margin: 18px;
     color: rgba(243, 208, 12, 0.911);
 }
+
 .section-1-1 span {
-    color:#fff;
+    color: #fff;
 }
+
 .section-1-1 img {
     position: absolute;
     z-index: 1;
     top: 0;
-    right:50px;
-    border-radius: 0px 0px 30px 30px;  
+    right: 50px;
+    border-radius: 0px 0px 30px 30px;
 }
+
 .section-1-2 {
     text-align: center;
+    margin: 38px 40px;
 }
 
 .section-2 {
     display: flex;
-}
-
-.section-2-2 {
-    padding: 200px;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-2-1 {
     display: flex;
     align-items: center;
-    padding: 200px;
+    padding: 100px 50px 100px 100px;
     color: rgb(4, 146, 202);
     font-size: 3.05rem;
 }
 
+.section-2-2 {
+    padding: 100px 100px 100px 50px;
+}
+
 .section-2-2 div {
     display: flex;
-    
+    justify-content: space-between;
+    text-align: center;
+}
+
+.section-2-2 p,
+.section-2-2 h2 {    
+    margin: 0px;
+    padding: 30px 5px;
+}
+
+.section-2-2 button {
+    min-width: 4.73%;
+    border: none;
+    padding: 0px;
+}
+
+.section-2-2 h2 {
+    min-width: 18.37%;
+}
+
+.section-2-2 p {
+    min-width: 74.65%;
+}
+
+.section-2-2 hr {
+    margin: 0px;
 }

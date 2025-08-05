@@ -144,5 +144,26 @@ h2 {
 }
 
 .section-5 {
-    background-color: black;
+    background-color:rgb(105, 154, 195);
+    display: flex;
+}
+
+.section-5 figure {
+    width: 24%;
+    padding: 50px 0px 50px 50px;
+    margin:0px 
+}
+
+.section-5 div {
+    width: 76%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 200px;
+    color: #fff;
+}
+
+.section-5 div hr {
+    height: 30px;
 }

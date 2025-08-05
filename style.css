@@ -210,10 +210,27 @@ h2 {
     display: flex;
 }
 
+@media (max-width: 768px) {
+    .section-5 {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+            }
+}
+
 .section-5 figure {
     width: 24%;
     padding: 50px 0px 50px 50px;
     margin: 0px
+}
+
+@media (max-width: 830px) {
+    .section-5 figure {
+       width: 50%;
+       justify-content: end;
+       padding: 0px;
+       margin-top: 20px;
+    }
 }
 
 .section-5 div {
@@ -230,9 +247,3 @@ h2 {
     height: 30px;
 }
 
-@media (max-width: 768px) {
-    .section-5 {
-        flex-direction: column;
-        align-items: center;
-    }
-}

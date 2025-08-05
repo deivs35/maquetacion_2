@@ -215,6 +215,7 @@ h2 {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+         width: auto;
             }
 }
 
@@ -225,8 +226,7 @@ h2 {
 }
 
 @media (max-width: 830px) {
-    .section-5 figure {
-       width: auto;
+    .section-5 figure {      
        padding: 0px;
        margin-top: 20px;
     }

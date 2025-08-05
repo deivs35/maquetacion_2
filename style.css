@@ -6,8 +6,8 @@ p {
     font-size: 1rem;
 }
 
-h2{
-    font: size 3.05rem;
+h2 {
+    font-size: 3.05rem;
 }
 
 .section-1 {
@@ -71,13 +71,14 @@ h2{
     text-align: center;
 }
 
-.section-2-2 p, .section-2-2 h2 {    
+.section-2-2 p,
+.section-2-2 h2 {
     margin: 0px;
-    padding: 30px 5px;
+    padding: 20px 5px;
 }
 
 .section-2-2 button {
-    min-width: 4.73%;
+    min-width: 5.73%;
     border: none;
     padding: 0px;
 }
@@ -87,7 +88,7 @@ h2{
 }
 
 .section-2-2 p {
-    min-width: 74.65%;
+    min-width: 73.65%;
 }
 
 .section-2-2 hr {
@@ -95,7 +96,7 @@ h2{
 }
 
 .section-3 {
-    background: linear-gradient(rgba(212, 159, 44,0.6),rgba(212, 159, 44,0.6)), url(./assets/img-1.jpg);
+    background: linear-gradient(rgba(212, 159, 44, 0.6), rgba(212, 159, 44, 0.6)), url(./assets/img-1.jpg);
     background-size: cover;
     min-height: 540px;
     text-align: center;
@@ -103,5 +104,45 @@ h2{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #fff;     
+    color: #fff;
+}
+
+.section-4 {
+    background-color: rgb(97, 97, 97);
+    color: #fff;
+    }
+
+.section-4-1 {
+    text-align: center;
+    padding: 20px 0px 10px;    
+}
+
+.section-4-2 {
+    min-height: 75vh;
+}
+
+.section-4-2-1 {
+    width: 29%;
+    margin-left: 40px;
+    text-align:end;
+}
+
+.section-4-2-1-img {
+    max-width: 100%;
+}
+
+.section-4-2-1 p {
+    margin: 15px 0px 5px 0px ;
+}
+
+.section-4-2-1 p button {
+    border-radius: 50%;
+}
+
+.section-4-2-2 {
+    width: 71%;
+}
+
+.section-5 {
+    background-color: black;
 }

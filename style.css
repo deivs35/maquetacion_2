@@ -226,7 +226,7 @@ h2 {
 
 @media (max-width: 830px) {
     .section-5 figure {
-       width: 50%;
+       width: auto;
        padding: 0px;
        margin-top: 20px;
     }

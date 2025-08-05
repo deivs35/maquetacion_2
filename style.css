@@ -42,9 +42,21 @@ h2 {
     border-radius: 0px 0px 30px 30px;
 }
 
+@media (max-width: 768px) {
+    .section-1-1 img {
+        max-width: 20%;
+    }
+}
+
 .section-1-2 {
     text-align: center;
     margin: 38px 40px;
+}
+
+@media (max-width: 830px) {
+    .section-1-2 img {
+        width: 250px;
+    }
 }
 
 .section-2 {
@@ -95,6 +107,14 @@ h2 {
     margin: 0px;
 }
 
+
+@media (max-width: 768px) {
+    .section-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .section-3 {
     background: linear-gradient(rgba(212, 159, 44, 0.6), rgba(212, 159, 44, 0.6)), url(./assets/img-1.jpg);
     background-size: cover;
@@ -110,11 +130,11 @@ h2 {
 .section-4 {
     background-color: rgb(97, 97, 97);
     color: #fff;
-    }
+}
 
 .section-4-1 {
     text-align: center;
-    padding: 20px 0px 10px;    
+    padding: 20px 0px 10px;
 }
 
 .section-4-2 {
@@ -124,7 +144,7 @@ h2 {
 .section-4-2-1 {
     width: 29%;
     margin-left: 40px;
-    text-align:end;
+    text-align: end;
 }
 
 .section-4-2-1-img {
@@ -132,7 +152,7 @@ h2 {
 }
 
 .section-4-2-1 p {
-    margin: 15px 0px 5px 0px ;
+    margin: 15px 0px 5px 0px;
 }
 
 .section-4-2-1 p button {
@@ -144,14 +164,14 @@ h2 {
 }
 
 .section-5 {
-    background-color:rgb(105, 154, 195);
+    background-color: rgb(105, 154, 195);
     display: flex;
 }
 
 .section-5 figure {
     width: 24%;
     padding: 50px 0px 50px 50px;
-    margin:0px 
+    margin: 0px
 }
 
 .section-5 div {
@@ -166,4 +186,11 @@ h2 {
 
 .section-5 div hr {
     height: 30px;
+}
+
+@media (max-width: 768px) {
+    .section-5 {
+        flex-direction: column;
+        align-items: center;
+    }
 }

@@ -155,6 +155,7 @@ h2 {
     background-color: rgb(97, 97, 97);
     color: #fff;
     min-height: 540px;
+    padding: 40px;
 }
 
 .section-4-1 {
@@ -162,22 +163,32 @@ h2 {
     padding: 20px 0px 10px;
 }
 
-.section-4-2 {
-    min-height: 75vh;
-}
-
 .section-4-2-1 {
-    width: 29%;
+    width: 430.67px;
     margin-left: 40px;
     text-align: end;
 }
 
 .section-4-2-1-img {
-    max-width: 100%;
+    max-width:540px;
+}
+
+@media (max-width: 830px) {
+    .section-4-2-1, .section-4-2-1-img {
+        width: 100%;
+        margin: 0px;
+    }
+}
+
+@media (max-width: 830px) {
+    .section-4-2-1 p {
+        width: 294px !important;
+    }
 }
 
 .section-4-2-1 p {
     margin: 15px 0px 5px 0px;
+    width: 431px;
 }
 
 .section-4-2-1 p button {
@@ -186,6 +197,12 @@ h2 {
 
 .section-4-2-2 {
     width: 71%;
+}
+
+@media (max-width: 830px) {
+    .section-4-2-2 {
+       display: none;
+    }
 }
 
 .section-5 {
